@@ -1,0 +1,304 @@
+[main]
+host = https://www.transifex.com
+type = PO
+
+[docutils.docutils--BUGS]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/BUGS.po
+source_file = locale/pot/docutils/BUGS.pot
+source_lang = en
+
+[docutils.docutils--COPYING]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/COPYING.po
+source_file = locale/pot/docutils/COPYING.pot
+source_lang = en
+
+[docutils.docutils--FAQ]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/FAQ.po
+source_file = locale/pot/docutils/FAQ.pot
+source_lang = en
+
+[docutils.docutils--HISTORY]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/HISTORY.po
+source_file = locale/pot/docutils/HISTORY.pot
+source_lang = en
+
+[docutils.docutils--README]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/README.po
+source_file = locale/pot/docutils/README.pot
+source_lang = en
+
+[docutils.docutils--RELEASE-NOTES]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/RELEASE-NOTES.po
+source_file = locale/pot/docutils/RELEASE-NOTES.pot
+source_lang = en
+
+[docutils.docutils--THANKS]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/THANKS.po
+source_file = locale/pot/docutils/THANKS.pot
+source_lang = en
+
+[docutils.docutils--docs--index]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/index.po
+source_file = locale/pot/docutils/docs/index.pot
+source_lang = en
+
+[docutils.docutils--docs--api--cmdline-tool]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/api/cmdline-tool.po
+source_file = locale/pot/docutils/docs/api/cmdline-tool.pot
+source_lang = en
+
+[docutils.docutils--docs--api--publisher]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/api/publisher.po
+source_file = locale/pot/docutils/docs/api/publisher.pot
+source_lang = en
+
+[docutils.docutils--docs--api--runtime-settings]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/api/runtime-settings.po
+source_file = locale/pot/docutils/docs/api/runtime-settings.pot
+source_lang = en
+
+[docutils.docutils--docs--dev--distributing]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/dev/distributing.po
+source_file = locale/pot/docutils/docs/dev/distributing.pot
+source_lang = en
+
+[docutils.docutils--docs--dev--enthought-plan]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/dev/enthought-plan.po
+source_file = locale/pot/docutils/docs/dev/enthought-plan.pot
+source_lang = en
+
+[docutils.docutils--docs--dev--enthought-rfp]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/dev/enthought-rfp.po
+source_file = locale/pot/docutils/docs/dev/enthought-rfp.pot
+source_lang = en
+
+[docutils.docutils--docs--dev--hacking]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/dev/hacking.po
+source_file = locale/pot/docutils/docs/dev/hacking.pot
+source_lang = en
+
+[docutils.docutils--docs--dev--policies]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/dev/policies.po
+source_file = locale/pot/docutils/docs/dev/policies.pot
+source_lang = en
+
+[docutils.docutils--docs--dev--pysource]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/dev/pysource.po
+source_file = locale/pot/docutils/docs/dev/pysource.pot
+source_lang = en
+
+[docutils.docutils--docs--dev--release]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/dev/release.po
+source_file = locale/pot/docutils/docs/dev/release.pot
+source_lang = en
+
+[docutils.docutils--docs--dev--repository]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/dev/repository.po
+source_file = locale/pot/docutils/docs/dev/repository.pot
+source_lang = en
+
+[docutils.docutils--docs--dev--semantics]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/dev/semantics.po
+source_file = locale/pot/docutils/docs/dev/semantics.pot
+source_lang = en
+
+[docutils.docutils--docs--dev--testing]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/dev/testing.po
+source_file = locale/pot/docutils/docs/dev/testing.pot
+source_lang = en
+
+[docutils.docutils--docs--dev--todo]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/dev/todo.po
+source_file = locale/pot/docutils/docs/dev/todo.pot
+source_lang = en
+
+[docutils.docutils--docs--dev--website]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/dev/website.po
+source_file = locale/pot/docutils/docs/dev/website.pot
+source_lang = en
+
+[docutils.docutils--docs--dev--rst--alternatives]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/dev/rst/alternatives.po
+source_file = locale/pot/docutils/docs/dev/rst/alternatives.pot
+source_lang = en
+
+[docutils.docutils--docs--dev--rst--problems]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/dev/rst/problems.po
+source_file = locale/pot/docutils/docs/dev/rst/problems.pot
+source_lang = en
+
+[docutils.docutils--docs--howto--html-stylesheets]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/howto/html-stylesheets.po
+source_file = locale/pot/docutils/docs/howto/html-stylesheets.pot
+source_lang = en
+
+[docutils.docutils--docs--howto--i18n]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/howto/i18n.po
+source_file = locale/pot/docutils/docs/howto/i18n.pot
+source_lang = en
+
+[docutils.docutils--docs--howto--rst-directives]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/howto/rst-directives.po
+source_file = locale/pot/docutils/docs/howto/rst-directives.pot
+source_lang = en
+
+[docutils.docutils--docs--howto--rst-roles]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/howto/rst-roles.po
+source_file = locale/pot/docutils/docs/howto/rst-roles.pot
+source_lang = en
+
+[docutils.docutils--docs--howto--security]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/howto/security.po
+source_file = locale/pot/docutils/docs/howto/security.pot
+source_lang = en
+
+[docutils.docutils--docs--peps--pep-0256]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/peps/pep-0256.po
+source_file = locale/pot/docutils/docs/peps/pep-0256.pot
+source_lang = en
+
+[docutils.docutils--docs--peps--pep-0257]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/peps/pep-0257.po
+source_file = locale/pot/docutils/docs/peps/pep-0257.pot
+source_lang = en
+
+[docutils.docutils--docs--peps--pep-0258]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/peps/pep-0258.po
+source_file = locale/pot/docutils/docs/peps/pep-0258.pot
+source_lang = en
+
+[docutils.docutils--docs--peps--pep-0287]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/peps/pep-0287.po
+source_file = locale/pot/docutils/docs/peps/pep-0287.pot
+source_lang = en
+
+[docutils.docutils--docs--ref--doctree]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/ref/doctree.po
+source_file = locale/pot/docutils/docs/ref/doctree.pot
+source_lang = en
+
+[docutils.docutils--docs--ref--transforms]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/ref/transforms.po
+source_file = locale/pot/docutils/docs/ref/transforms.pot
+source_lang = en
+
+[docutils.docutils--docs--ref--rst--definitions]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/ref/rst/definitions.po
+source_file = locale/pot/docutils/docs/ref/rst/definitions.pot
+source_lang = en
+
+[docutils.docutils--docs--ref--rst--directives]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/ref/rst/directives.po
+source_file = locale/pot/docutils/docs/ref/rst/directives.pot
+source_lang = en
+
+[docutils.docutils--docs--ref--rst--introduction]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/ref/rst/introduction.po
+source_file = locale/pot/docutils/docs/ref/rst/introduction.pot
+source_lang = en
+
+[docutils.docutils--docs--ref--rst--restructuredtext]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/ref/rst/restructuredtext.po
+source_file = locale/pot/docutils/docs/ref/rst/restructuredtext.pot
+source_lang = en
+
+[docutils.docutils--docs--ref--rst--roles]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/ref/rst/roles.po
+source_file = locale/pot/docutils/docs/ref/rst/roles.pot
+source_lang = en
+
+[docutils.docutils--docs--user--config]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/user/config.po
+source_file = locale/pot/docutils/docs/user/config.pot
+source_lang = en
+
+[docutils.docutils--docs--user--docutils-05-compat_sty]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/user/docutils-05-compat.sty.po
+source_file = locale/pot/docutils/docs/user/docutils-05-compat.sty.pot
+source_lang = en
+
+[docutils.docutils--docs--user--emacs]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/user/emacs.po
+source_file = locale/pot/docutils/docs/user/emacs.pot
+source_lang = en
+
+[docutils.docutils--docs--user--latex]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/user/latex.po
+source_file = locale/pot/docutils/docs/user/latex.pot
+source_lang = en
+
+[docutils.docutils--docs--user--links]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/user/links.po
+source_file = locale/pot/docutils/docs/user/links.pot
+source_lang = en
+
+[docutils.docutils--docs--user--mailing-lists]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/user/mailing-lists.po
+source_file = locale/pot/docutils/docs/user/mailing-lists.pot
+source_lang = en
+
+[docutils.docutils--docs--user--manpage]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/user/manpage.po
+source_file = locale/pot/docutils/docs/user/manpage.pot
+source_lang = en
+
+[docutils.docutils--docs--user--odt]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/user/odt.po
+source_file = locale/pot/docutils/docs/user/odt.pot
+source_lang = en
+
+[docutils.docutils--docs--user--slide-shows]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/user/slide-shows.po
+source_file = locale/pot/docutils/docs/user/slide-shows.pot
+source_lang = en
+
+[docutils.docutils--docs--user--tools]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/user/tools.po
+source_file = locale/pot/docutils/docs/user/tools.pot
+source_lang = en
+
+[docutils.docutils--docs--user--rst--cheatsheet]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/user/rst/cheatsheet.po
+source_file = locale/pot/docutils/docs/user/rst/cheatsheet.pot
+source_lang = en
+
+[docutils.docutils--docs--user--rst--demo]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/user/rst/demo.po
+source_file = locale/pot/docutils/docs/user/rst/demo.pot
+source_lang = en
+
+[docutils.docutils--docs--user--rst--quickstart]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/docs/user/rst/quickstart.po
+source_file = locale/pot/docutils/docs/user/rst/quickstart.pot
+source_lang = en
+
+[docutils.docutils--licenses--BSD-2-Clause]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/licenses/BSD-2-Clause.po
+source_file = locale/pot/docutils/licenses/BSD-2-Clause.pot
+source_lang = en
+
+[docutils.docutils--licenses--gpl-3-0]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/licenses/gpl-3-0.po
+source_file = locale/pot/docutils/licenses/gpl-3-0.pot
+source_lang = en
+
+[docutils.docutils--licenses--python-2-1-1]
+file_filter = locale/<lang>/LC_MESSAGES/docutils/licenses/python-2-1-1.po
+source_file = locale/pot/docutils/licenses/python-2-1-1.pot
+source_lang = en
+
+[docutils.web--index]
+file_filter = locale/<lang>/LC_MESSAGES/web/index.po
+source_file = locale/pot/web/index.pot
+source_lang = en
+
+[docutils.web--rst]
+file_filter = locale/<lang>/LC_MESSAGES/web/rst.po
+source_file = locale/pot/web/rst.pot
+source_lang = en
+
+[docutils.web--mirror--setext]
+file_filter = locale/<lang>/LC_MESSAGES/web/mirror/setext.po
+source_file = locale/pot/web/mirror/setext.pot
+source_lang = en
+
