@@ -1,3 +1,13 @@
+# you need setup Environment Variables as:
+#
+#  PIP_USE_WHEEL=true
+#  SPHINXINTL_TRANSIFEX_USERNAME=<YOUR-TRANSIFEX-ID>
+#  SPHINXINTL_TRANSIFEX_PASSWORD=<YOUR-TRANSIFEX-PW>
+#  SPHINXINTL_LOCALE_DIRS=locale
+#  AWS_ACCESS_KEY_ID=<YOUR-AWS-ACCESS-KEY>
+#  AWS_SECRET_ACCESS_KEY=<YOUR-AWS-SECRET-ACCESS-KEY>
+
+
 #hg clone https://bitbucket.org/sphinxjp/docutils-translation
 # cwd is cloned from https://bitbucket.org/sphinxjp/docutils-translation
 
