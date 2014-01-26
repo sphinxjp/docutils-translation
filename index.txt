@@ -1,0 +1,45 @@
+.. create pot from docutils document and upload pot to the transifex
+..
+.. sphinx-build -b gettext -d _build/doctrees . locales/pot
+.. sphinx-intl create-txconfig
+.. sphinx-intl update-txconfig-resources --transifex-project-name=docutils
+.. tx push -s
+
+.. create/update Japanese po files from pot and upload po to the transifex.
+..
+.. sphinx-intl update -l ja
+.. tx push -l ja
+
+.. retrieve po from the transifex and do `make html` by sphinx
+..
+.. tx pull -l ja
+.. sphinx-intl build -l ja
+.. sphinx-build -b html -d _build/doctrees -Dlanguage=ja . _build/html
+
+
+Docutils
+========
+
+.. toctree::
+   :glob:
+
+   docutils/docs/index
+
+Docutilsソースコードのドキュメント
+==================================
+
+.. toctree::
+   :glob:
+
+   docutils/README
+   docutils/*
+
+
+Docutils公式サイトTopページ
+===========================
+
+.. toctree::
+   :glob:
+
+   web/index
+   web/*

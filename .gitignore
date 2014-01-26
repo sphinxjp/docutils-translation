@@ -1,0 +1,10 @@
+.hg
+.hgignore
+.tx
+_build
+docutils/MANIFEST
+docutils/dist
+docutils/*.egg-info
+docutils/*.dist-info
+locale
+*.pyc

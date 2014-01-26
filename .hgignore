@@ -1,0 +1,11 @@
+^docutils
+^prest
+^sandbox
+^web
+^.git
+^.tx
+^_build
+^locale
+
+syntax: glob
+*.pyc
