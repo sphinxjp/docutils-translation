@@ -1,6 +1,6 @@
 .. create pot from docutils document and upload pot to the transifex
 ..
-.. sphinx-build -b gettext -d _build/doctrees . locales/pot
+.. sphinx-build -b gettext . locales/pot
 .. sphinx-intl create-txconfig
 .. sphinx-intl update-txconfig-resources --transifex-project-name=docutils
 .. tx push -s
