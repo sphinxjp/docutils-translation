@@ -15,7 +15,8 @@ svn export --force http://svn.code.sf.net/p/docutils/code/trunk .
 
 ################################
 # setup sphinx and others
-pip install sphinx babel sphinx-intl transifex-client
+pip install --pre sphinx
+pip install sphinx-intl transifex-client
 
 ################################
 # setup transifex setting files
