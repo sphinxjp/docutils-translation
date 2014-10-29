@@ -4,8 +4,6 @@
 #  SPHINXINTL_TRANSIFEX_USERNAME=<YOUR-TRANSIFEX-ID>
 #  SPHINXINTL_TRANSIFEX_PASSWORD=<YOUR-TRANSIFEX-PW>
 #  SPHINXINTL_LOCALE_DIRS=locale
-#  AWS_ACCESS_KEY_ID=<YOUR-AWS-ACCESS-KEY>
-#  AWS_SECRET_ACCESS_KEY=<YOUR-AWS-SECRET-ACCESS-KEY>
 
 
 #hg clone https://bitbucket.org/sphinxjp/docutils-translation
@@ -17,7 +15,7 @@ svn export --force http://svn.code.sf.net/p/docutils/code/trunk .
 
 ################################
 # setup sphinx and others
-pip install sphinx boto_rsync babel sphinx-intl transifex-client
+pip install sphinx babel sphinx-intl transifex-client
 
 ################################
 # setup transifex setting files
@@ -32,10 +30,6 @@ sphinx-intl create-transifexrc        #create ~/.transifexrc
 
 ###########################
 # make translated document
-tx pull --all                         #pull po files from transifex
+tx pull -l ja                         #pull po files from transifex
 sphinx-intl build                     #compile po -> mo
 sphinx-build -b html -d _build/doctrees -Dlanguage=ja . _build/html
-
-##################################
-# deploy to s3
-boto-rsync --delete -g public-read _build/html s3://docutils.sphinx-users.jp/
