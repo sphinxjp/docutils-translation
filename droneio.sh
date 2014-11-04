@@ -40,7 +40,7 @@ sphinx-intl create-transifexrc        #create ~/.transifexrc
 
 #######################################
 # make pot files and push to transifex
-sphinx-build -b gettext . locales/pot
+sphinx-build -b gettext . locale/pot
 sphinx-intl --transifex-project-name=docutils update-txconfig-resources
 tx push -s
 
