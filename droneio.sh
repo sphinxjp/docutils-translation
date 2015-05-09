@@ -17,7 +17,7 @@ svn export --force http://svn.code.sf.net/p/docutils/code/trunk .
 curl -L -s https://www.dropbox.com/s/pmxl0g8ghwmrgj0/sphinx-wheelhouse-20140503.tgz | tar vzxf -
 curl -L -s https://www.dropbox.com/s/cmy7e6frsv1mf6a/sphinx-intl-wheelhouse-20140503.tgz | tar vzxf -
 
-export PIP_FIND_LINKS=wheelhouse
+export PIP_FIND_LINKS=./wheelhouse
 python wheelhouse/get-pip.py
 
 
